@@ -1,0 +1,30 @@
+title: Supertile
+email: awesome@supertile.com.au
+description: >-
+  As tiling specialists, SuperTile are focused on the detail. That’s great news for you, because it means that you end up with a fantastic looking pool and can be 100% confident that the work and materials are the best.
+keywords:
+  - SuperTile
+  - tiling specialists
+  - floor tiling
+  - wall tiling
+  - bathroom tiling
+  - renovations
+  - pools and spas
+  - waterproofing
+baseurl: ""
+url: "https://supertile.com.au"
+# Build settings
+markdown: kramdown
+theme: minima
+
+# Exclude from processing.
+# The following items will not be processed, by default. Create a custom list
+# to override the default setting.
+# exclude:
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/

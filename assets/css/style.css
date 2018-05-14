@@ -1,0 +1,57 @@
+/* CSS Document */
+
+html, body {
+	margin: 0;
+	padding :0;
+	height: 100%; /* needed for container min-height */
+	color: #535353;
+	background: #515151;
+	font-family: Century Gothic, arial, sans-serif;
+	font-size: 18px;
+  	line-height: 1.1;
+}
+
+
+div#mid { background: #FFF; margin-top: 25px; }
+
+div#container { 
+	position:relative; /* needed for footer positioning*/
+	margin:0 auto; /* center, not in IE5 */
+	width: 619px; 
+	height:auto !important; /* real browsers */
+	height:100%; /* IE6: treaded as min-height*/
+	min-height:100%; /* real browsers */
+}
+
+div#logo { 
+	position: relative; 
+	top: 28px; 
+	left: 6px; 
+	width: 498px; 
+	height: 194px; 
+	background: url(../img/superTile_logo.png) no-repeat; 
+}
+div#logo h1 { visibility: hidden; }
+div#logo h2 {
+	position: relative;
+	top: 45px;
+	left: 340px;
+	width: 197px;
+	height: 18px;
+	background: url(../img/awesome.png) no-repeat;
+}
+
+div#logo h2 span { visibility: hidden; }
+
+div#mainText { margin-top: 50px; }
+
+div#contactBox { position: relative; width: 355px; margin: 50px 0 50px 0; }
+div#contactBox .bold30 { font-weight: bold; font-size: 30px; color: #000; top: 5px; position: relative; }
+div#contactBox .bold24 a { font-weight: bold; font-size: 24px; color: #000; top: 5px; position: relative; text-decoration: none; }
+div#contactBox .bold24 a:hover { color: #741F23; }
+
+div#baseBar { width: 619px; height: 92px; margin: 0 auto; }
+
+div#baseBar { width: 100%; height: 92px; background: #515151; }
+div#baseBar div#baseHolder { width: 619px; height: 92px; margin: 0 auto; }
+div#qrCode { position: relative; width: 285px; height: 320px; background: url(../img/qrCode.png) no-repeat; float: right; }
